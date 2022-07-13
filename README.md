@@ -4,7 +4,7 @@
 
 This repository contains a TensorFlow 2.0 implementation of SRNet, a Deep Learning steganalyzer presented by [Mehdi Boroumand et al.](https://ieeexplore.ieee.org/document/8470101) The main goal of SRNet is to obtain good results by distinguishing between images with hidden information inside and those without hidden information without using any kind of domain information, such as initialising the weights of the first layers with high-pass filters. One architecture that does use this initialisation of the initial layers is YeNet, presented in [Jian Ye et al.](https://ieeexplore.ieee.org/document/7937836)
 
-The SRNet accuracy reported in its paper is **89.77\%**, but with the code shown in this repository only an accuracy close to **83\%** has been attained. This may be due to the dataset creation randomness, the framework used to code the architecture or even any little mistake in the code. In the [Pytorch-implementation-of-SRNet](https://github.com/brijeshiitg/Pytorch-implementation-of-SRNet) repository a Pytorch version of SRNet can be seen that reaches an accuracy of **89.43\%**.
+The SRNet accuracy reported in its paper is **89.77\%**, but with the code shown in this repository only an accuracy close to **83\%** has been attained. This may be due to the dataset creation randomness, the framework used to code the architecture or even any little mistake in the code. In the [Pytorch-implementation-of-SRNet](https://github.com/brijeshiitg/Pytorch-implementation-of-SRNet) repository a Pytorch version of SRNet can be seen that reaches an accuracy of **89.43\%** according to the creator.
 
 The SRNet architecture can be seen in the following figure.
 
